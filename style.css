@@ -1,0 +1,133 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url(images/pattern-background-desktop.svg) no-repeat;
+  background-size: contain;
+  background-position: 0px -50px;
+  background-color: hsl(225, 100%, 94%);
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  font-family: "Red Hat Display", sans-serif;
+}
+
+.container {
+  background-color: hsl(225, 100%, 98%);
+  border-radius: 20px;
+  overflow: hidden;
+  width: 375px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dark {
+  color: hsl(223, 47%, 23%);
+}
+
+.light {
+  color: hsl(224, 23%, 55%);
+}
+
+.hero {
+  width: 100%;
+  height: 180px;
+  background: url("images/illustration-hero.svg") no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  text-align: center;
+  padding-top: 20px;
+}
+.main > p {
+  text-align: center;
+  padding: 20px;
+}
+
+.plan,
+.plan-left {
+  display: flex;
+  align-items: center;
+}
+
+.plan {
+  justify-content: space-between;
+  background-color: hsl(227, 100%, 97%);
+  margin: 20px;
+  margin-top: 10px;
+  border-radius: 20px;
+  padding: 10px 20px;
+}
+
+.plan-left {
+  align-items: center;
+}
+
+.plan-left img {
+  padding-right: 30px;
+  padding-top: 4px;
+}
+
+.text {
+  font-weight: 900;
+}
+
+.button {
+  border: 0;
+  background-color: transparent;
+}
+
+.change button {
+  color: hsl(245, 75%, 52%);
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.change button:hover {
+  cursor: pointer;
+  color: rgba(56, 41, 224, 0.7);
+}
+
+.final {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0 6px 0;
+}
+
+.pay button {
+  background-color: hsl(245, 75%, 52%);
+  color: hsl(225, 100%, 98%);
+  font-weight: 700;
+  padding: 15px 100px;
+  border-radius: 10px;
+}
+
+.pay button:hover {
+  cursor: pointer;
+  background-color: rgba(56, 41, 224, 0.7);
+}
+
+.cancel button {
+  color: hsl(224, 23%, 55%);
+  font-weight: 700;
+  padding: 30px 0;
+  border-radius: 10px;
+}
+
+.cancel button:hover {
+  cursor: pointer;
+  color: hsl(223, 47%, 23%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
